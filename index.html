@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<style>
+  .carousel-inner img {
+    margin-left:auto;
+    margin-right:auto;
+        max-width: 1000px;
+        max-height: 600px;
+  }
+  .carousel{
+    background-color:grey;
+  }
+
+
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    min-width:300px;
+}
+#element{
+  margin-left:100px;
+  margin-right:100px;
+}
+#element1{
+  background-color:lightblue;
+}
+footer {
+  display: block;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+</style>
+  </head>
+  <body id="element1">
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">MTX</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home
+          <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Food
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="vegfood.html">Veg Food</a>
+          <a class="dropdown-item" href="nonvegfood.html">Non Veg Food</a>
+          <a class="dropdown-item" href="chinesefood.html">Chinese Food</a>
+        </div>
+      </li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Credentials
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Login.html">Login</a>
+          <a class="dropdown-item" href="Registration.html">Registration</a>
+        </div>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact Us
+          <span class="sr-only">(current)</span></a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+<br><br>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" width="500" height="30">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://previews.123rf.com/images/indianfoodimages/indianfoodimages1906/indianfoodimages190602198/125859687-indian-hindu-veg-thali-food-platter-selective-focus.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://i.pinimg.com/originals/a6/36/4b/a6364bafb4595b9ab6e1b0a2bbd5578e.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://media.istockphoto.com/photos/chinese-food-blank-background-picture-id545286388" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br><br>
+
+<div class="card-deck" id="element" >
+  <div class="card">
+    <img class="card-img-top" src="https://www.kindpng.com/picc/m/236-2363590_best-vegan-food-in-mississauga-veg-food-logo.png" alt="Card image cap" width="200px" height="200px" >
+    <div class="card-body">
+      <h5 class="card-title">Veg food Menu</h5>
+          <a href="vegfood.html" class="btn btn-primary">Go to Veg Menu</a>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="https://www.kindpng.com/picc/m/151-1515522_non-vegetarian-non-veg-logo-hd-png-download.png" alt="Card image cap" width="200px" height="200px">
+    <div class="card-body">
+      <h5 class="card-title">Non-Veg Menu</h5>
+          <a href="nonvegfood.html" class="btn btn-primary">Go to Non-Veg Menu</a>
+
+      </div>
+    </div>
+  <div class="card">
+    <img class="card-img-top" src="https://i.pinimg.com/736x/81/fb/1d/81fb1d5a405237f2aed063d1dd46d4b9.jpg" alt="Card image cap" width="200px" height="200px">
+    <div class="card-body">
+      <h5 class="card-title">Chinese Food Menu</h5>
+          <a href="chinesefood.html" class="btn btn-primary">Go to Chinese Menu</a>
+
+      </div>
+    </div>
+</div>
+
+<br><br>
+<footer >
+  <br>
+<p>All copirights resevered &copyMTX.</p>
+
+</footer>
+  
+  </body>
+</html>
